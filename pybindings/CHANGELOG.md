@@ -5,6 +5,19 @@
 ## Added
 - `add_edge` method to `VecGraph` class.
 
+## [0.3.0](https://github.com/zxcalc/quizx/compare/quizx-py-v0.2.0...quizx-py-v0.3.0) (2025-06-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* The decomposer works different now. I replaced the stack with a recursive approach
+* 
+
+### Features
+
+* Generator for surface code circuits ([#128](https://github.com/zxcalc/quizx/issues/128)) ([4da7be4](https://github.com/zxcalc/quizx/commit/4da7be4c4e0becbb7f11f345eebb425890369f7c))
+* Rework of Decomposer to allow for speperation of disconnected components and exchange the driving decomposition selector ([#147](https://github.com/zxcalc/quizx/issues/147)) ([efe19c5](https://github.com/zxcalc/quizx/commit/efe19c51efb6d7406dd1c696c1464ae65fbaa7c8))
+
 ## [0.2.0](https://github.com/zxcalc/quizx/compare/quizx-py-v0.1.1...quizx-py-v0.2.0) (2025-05-13)
 
 
